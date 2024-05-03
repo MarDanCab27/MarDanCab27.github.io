@@ -8,12 +8,26 @@
 </head>
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <h1 class="grid text-center">Inicio de secion</h1>
+    <h1 class="text-center" >GymAsist</h1>
     <!--/* Campos login */-->
-    <form action="" class="grid text-center">
-      <div><input type="text" name="userName" id="" required placeholder="Usuario"> </div>
-      <div><input type="text" name="userPass" id="" required placeholder="Contraseña">    </div>
-      <div><input type="button" name="send" id="" value="Entrar"></div>
-    </form>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form action="">
+            <h2 class="text-center">Inicio sesión</h2>
+            <div class="form-group">
+              <label for="nomUser">Usuario</label>
+              <input type="text" name="nomUser" id="nomUser" class="form-control" required placeholder="Usuario">
+            </div>
+            <div class="form-group">
+              <label for="contraUser">Contraseña</label>
+              <input type="text" name="contraUser" id="contraUser" placeholder="Contraseña" class="form-control">
+            </div>
+              <input type="submit" name="ingresar" id="ingresar" value="Ingresar" class="btn btn-primary btn-block">
+          </form>
+        </div>
+    </div>
+    
+
 </body>
 </html>
