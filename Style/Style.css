@@ -1,3 +1,4 @@
+/*Ingreso*/
 body{
     background-color: black;
 }
@@ -20,14 +21,16 @@ h1{
 .form-group{
     margin: 5%;
 }
+
 .label-chiquitas{
     font-size: 20px;
     color: white;
     font-style: oblique;
 }
 
-.table{
-    border: 5px solid black;
+.TablaUsuario{
+    border-style: outset;
+    border: 5px solid;
 }
 
 /*Juan, ambUsuarios*/
