@@ -20,12 +20,14 @@ h1{
 .form-group{
     margin: 5%;
 }
+
 .label-chiquitas{
     font-size: 20px;
     color: white;
     font-style: oblique;
 }
 
-.table{
-    border: solid;
+.TablaUsuario{
+    border-style: outset;
+    border: 5px solid;
 }
