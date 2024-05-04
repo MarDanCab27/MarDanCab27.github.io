@@ -1,0 +1,71 @@
+/*Ingreso*/
+body{
+    background-color: black;
+}
+
+h2{
+    margin: 7%;
+    font-style: oblique;
+}
+
+h1{
+    border: 5px outset black;
+    background-color: white;
+    font-style: oblique;
+}
+
+.BotonIngreso{
+    margin: 8%;
+}
+
+.form-group{
+    margin: 5%;
+}
+
+.label-chiquitas{
+    font-size: 20px;
+    color: white;
+    font-style: oblique;
+}
+
+.TablaUsuario{
+    border-style: outset;
+    border: 5px solid;
+}
+
+/*Juan, ambUsuarios*/
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    margin:20px;
+    margin-bottom: 20px;
+  }
+  
+  .item {
+    background-color: #f0f0f0;
+    padding: 20px;
+    
+    text-align: center;
+  }
+  
+  .botones {
+    display: flex;
+    justify-content: space-between;
+    margin:20px;
+  }
+  
+  button {
+    padding: 10px 50px;
+    background-color: #00ffbf;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
