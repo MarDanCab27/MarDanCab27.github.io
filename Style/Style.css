@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+}
+
+h2{
+    margin: 7%;
+    font-style: oblique;
+}
+
+h1{
+    border: 5px outset black;
+    background-color: white;
+    font-style: oblique;
+}
+
+.BotonIngreso{
+    margin: 8%;
+}
+
+.form-group{
+    margin: 5%;
+}
+.label-chiquitas{
+    font-size: 20px;
+    color: white;
+    font-style: oblique;
+}
+
+.table{
+    
+}
