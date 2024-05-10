@@ -69,6 +69,46 @@ h1{
   button:hover {
     background-color: #0056b3;
   }
+ 
+ 
+  /*Actividades*/
+
+  .Rutina1Dia{
+    margin: 2%;
+    padding: 2%;
+    border: 5px outset white;
+    background-color: black;
+    color: red;
+  }
+
+  .Rutina2Dia{
+    margin: 2%;
+    padding: 2%;
+    border: 5px outset white;
+    background-color: black;
+    color: red
+  }
+
+  .Rutina3Dia{
+    margin: 2%;
+    padding: 2%;
+    border: 5px outset white;
+    background-color: black;
+    color: red;
+  }
+
+
+  .RUTINAS{
+    display: inline-flexbox;
+    border: 5px outset white;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+  }
+
+  .RUTINAS li{
+    list-style: none;
+  }
 
   /*home*/
 
@@ -78,7 +118,7 @@ h1{
 }
 
 .CARDS{
-  display:inline-block;
+  display:inline-flex;
   margin: 50px;
   align-content: center;
 }
