@@ -33,29 +33,53 @@ h1{
     border: 5px solid;
 }
 
+<<<<<<< HEAD
+=======
+/*Juan, ambUsuarios*/
+
+>>>>>>> main
 
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+<<<<<<< HEAD
     gap: 10px;
+=======
+    gap: 2px;
+    margin:20px;
+>>>>>>> main
     margin-bottom: 20px;
   }
   
   .item {
     background-color: #f0f0f0;
     padding: 20px;
+<<<<<<< HEAD
+=======
+    
+>>>>>>> main
     text-align: center;
   }
   
   .botones {
     display: flex;
     justify-content: space-between;
+<<<<<<< HEAD
   }
   
   button {
     padding: 10px 20px;
     background-color: #007bff;
     color: #fff;
+=======
+    margin:20px;
+  }
+  
+  button {
+    padding: 10px 50px;
+    background-color: #00ffbf;
+    color: #000000;
+>>>>>>> main
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -63,4 +87,26 @@ h1{
   
   button:hover {
     background-color: #0056b3;
+<<<<<<< HEAD
   }
+=======
+  }
+
+  /*home*/
+
+.img-fluid{
+  width: 230px;
+  height: 230px;
+}
+
+.CARDS{
+  display:inline-block;
+  margin: 50px;
+  align-content: center;
+}
+
+.letras-blancas{
+  color: white;
+}
+
+>>>>>>> main
