@@ -8,7 +8,7 @@ h2{
     font-style: oblique;
 }
 
-.ingresos{
+h1{
     border: 5px outset black;
     background-color: white;
     font-style: oblique;
@@ -110,58 +110,20 @@ h2{
     list-style: none;
   }
 
-  .img-fluid{
-    width: 230px;
-    height: 230px;
-  }
-  
-  .CARDS{
-    display:inline-flex;
-    margin: 50px;
-    align-content: center;
-  }
-  
-  .letras-blancas{
-    color: white;
-  }
-
   /*home*/
 
-.principal{
-  text-align: center;
-  margin: 2%;
-  padding: 2%;
+.img-fluid{
+  width: 230px;
+  height: 230px;
 }
 
-#pie {
-  height:50px;
-  line-height:50px;
-  background:white;
-  color:black;
-  text-align:center;
-  position:absolute;
-  bottom:0;
-  left:0;
-  width:100%;
-}
-
-#contenido {
-  padding-bottom:50px;
+.CARDS{
   display:inline-flex;
-  float: left; 
+  margin: 50px;
+  align-content: center;
 }
 
-#pagina {
-  position: relative;
-  min-height: 100%;
+.letras-blancas{
+  color: white;
 }
-
-html, body {
-  margin:0;
-  padding:0;
-  height:100%;
-}
-
-
-
 
