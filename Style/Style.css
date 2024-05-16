@@ -39,6 +39,7 @@ h2{
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
     gap: 2px;
     margin:20px;
     margin-bottom: 20px;
@@ -54,6 +55,12 @@ h2{
   .botones {
     display: flex;
     justify-content: space-between;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
     margin:20px;
   }
   
@@ -69,6 +76,9 @@ h2{
   button:hover {
     background-color: #0056b3;
   }
+<<<<<<< HEAD
+  
+=======
  
  
   /*Actividades*/
@@ -109,6 +119,7 @@ h2{
   .RUTINAS li{
     list-style: none;
   }
+>>>>>>> main
 
   .img-fluid{
     width: 230px;
