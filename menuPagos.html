@@ -8,7 +8,6 @@
     <title>Document</title>
 </head>
 <body>
-    
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="menuAdmin.html">
@@ -34,40 +33,40 @@
           </div>
         </div>
       </nav>
-<div class="form-cont">
-  <h1 class="h1-abm">Agregar un nuevo usuario</h1>
-<form>
-  <div class="abmcampos">
-    <input type="text" id="user" name="user" required placeholder="Ingresar el nombre del usuario">
-  </div>
-  <div class="abmcampos">
-    <input type="text" id="apellido" name="apellido" required placeholder="Ingresar el apellido del usuario">
-  </div>
-  <div class="abmcampos">
-    <input type="text" id="edad" name="edad" required placeholder="Ingresar la edad del usuario">
-  </div>
-  <div class="abmcampos">
-    <input type="text" id="email" name="email" required placeholder="Ingresar el email del usuario">
-  </div>
-  <div class="abmcampos">
- <select name="actividad" id="actividad" required>
-  <option value="" disabled selected> Seleccione la actividad </option>
-  <option value="Musculación"> Musculación </option>
-  <option value="Crossfit">Crossfit</option>
-  <option value="Spinning">Spinning</option>
- </select>
- <div class="col-12">
-  <button class="botoncarga" type="submit">Cargar</button>
-  <a href="menuLista.html" class="botoncarga">Lista</a>
-  <a href="menuPagos.html" class="botoncarga">Pagos</a>
-</div>
-</div>
-</form>
-    
-     
-  
-</form>
-</div>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+      <table class="table">
+        <thead>
+          <tr>
+            
+            <th scope="col">#</th>
+            <th scope="col">Usuario</th>
+            <th scope="col">Pagó</th>
+            <th scope="col">Prueba gratis</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Juan</td>
+            <td scope="col"><input type="checkbox" value="flexCheckDefault"></td>
+            <td scope="col"><input type="checkbox" value="flexCheckDefault"></td>
+
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Emir</td>
+            <td scope="col"><input type="checkbox" value="flexCheckDefault"></td>
+            <td scope="col"><input type="checkbox" value="flexCheckDefault"></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Marcelo</td>
+            <td scope="col"><input type="checkbox" value="flexCheckDefault"></td>
+            <td scope="col"><input type="checkbox" value="flexCheckDefault"></td>
+          </tr>
+        </tbody>
+      </table>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 </html>

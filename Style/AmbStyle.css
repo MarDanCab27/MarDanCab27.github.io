@@ -1,3 +1,32 @@
+.form-cont {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #575757;
+  padding: 30px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.h1-abm {
+  text-align: center;
+  color: #f0f0f0;
+}
+
+.abmcampos {
+  margin-bottom: 40px;
+}
+
+.abmcampos input {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+}
+.abmcampos select {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
 .muestra-usuarios {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -6,13 +35,16 @@
     margin-bottom: 20px;
 }
 
-.cargauser {
-    margin: 20px;
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
 
 .itemH{
     background-color: #00ffbf;
-    padding: 20px;
+    padding:  10px 40px;
     text-align: center;
   }  
 
@@ -24,25 +56,34 @@
   }
 
   .botonesamb {
-    padding: 10px 50px;
+    padding: 10px 40px;
     background-color: #00ffbf;
     color: #000000;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    margin:20px;
+    margin: 10px;
   }
 
+.col-12 {
+  display: flex;
+  gap: 1px;
+}
+
+.boton-lista {   
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
   .botoncarga {
-    padding: 10px 50px;
+    padding: 10px 30px;
     background-color: #00ffbf;
     color: #000000;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin: 20px;
+    margin:20px;
   }
   
   .botoncarga:hover {
@@ -50,4 +91,5 @@
   }
   body {
     background-color: black;
+    color: #f0f0f0;
   }
