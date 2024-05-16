@@ -1,0 +1,53 @@
+.muestra-usuarios {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    margin:20px;
+    margin-bottom: 20px;
+}
+
+.cargauser {
+    margin: 20px;
+}
+
+.itemH{
+    background-color: #00ffbf;
+    padding: 20px;
+    text-align: center;
+  }  
+
+  .itemD {
+    background-color: #f0f0f0;
+    padding: 20px;
+    
+    text-align: center;
+  }
+
+  .botonesamb {
+    padding: 10px 50px;
+    background-color: #00ffbf;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    margin:20px;
+  }
+
+  .botoncarga {
+    padding: 10px 50px;
+    background-color: #00ffbf;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+  }
+  
+  .botoncarga:hover {
+    background-color: #0056b3;
+  }
+  body {
+    background-color: black;
+  }

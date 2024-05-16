@@ -35,6 +35,13 @@ h1{
 
 /*Juan, ambUsuarios*/
 
+form{
+  padding: 20px;
+}
+
+label {
+  color: #f0f0f0;
+}
 
 .grid-container {
     display: grid;
@@ -43,7 +50,12 @@ h1{
     margin:20px;
     margin-bottom: 20px;
   }
-  
+  .itemH{
+    background-color: #00ffbf;
+    padding: 20px;
+    text-align: center;
+  }  
+
   .item {
     background-color: #f0f0f0;
     padding: 20px;
@@ -57,7 +69,7 @@ h1{
     margin:20px;
   }
   
-  button {
+  .botoncarga {
     padding: 10px 50px;
     background-color: #00ffbf;
     color: #000000;
