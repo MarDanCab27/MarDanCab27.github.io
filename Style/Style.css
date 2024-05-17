@@ -118,6 +118,17 @@ h2{
   text-align: center;
 }
 
+.infoGym p{
+  margin: 4%;
+}
+
+.infoGym img{
+  display: inline-flex;
+  float: right;
+  margin: 4%;
+  padding: 3%;
+}
+
 
 /*footer*/
 
