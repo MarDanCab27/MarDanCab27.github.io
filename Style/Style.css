@@ -34,83 +34,12 @@ h1{
     border: 5px solid;
 }
 
-/*Juan, ambUsuarios*/
+.LinkMenuUsuario{
+  text-align: center;
+  margin: 2%;
+}
 
 
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2px;
-    margin:20px;
-    margin-bottom: 20px;
-  }
-  
-  .item {
-    background-color: #f0f0f0;
-    padding: 20px;
-    
-    text-align: center;
-  }
-  
-  .botones {
-    display: flex;
-    justify-content: space-between;
-    margin:20px;
-  }
-  
-  button {
-    padding: 10px 50px;
-    background-color: #00ffbf;
-    color: #000000;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
-<<<<<<< HEAD
-  /*Actividades*/
-
-  .Rutina1Dia{
-    margin: 2%;
-    padding: 2%;
-    border: 5px outset white;
-    background-color: black;
-    color: red;
-  }
-
-  .Rutina2Dia{
-    margin: 2%;
-    padding: 2%;
-    border: 5px outset white;
-    background-color: black;
-    color: red
-  }
-
-  .Rutina3Dia{
-    margin: 2%;
-    padding: 2%;
-    border: 5px outset white;
-    background-color: black;
-    color: red;
-  }
-
-
-  .RUTINAS{
-    display: inline-flexbox;
-    border: 5px outset white;
-    background-color: white;
-    align-items: center;
-    text-align: center;
-  }
-
-  .RUTINAS li{
-    list-style: none;
-  }
-=======
-  
 
   .img-fluid{
     width: 230px;
@@ -127,7 +56,7 @@ h1{
     color: white;
   }
 
->>>>>>> main
+
   /*home*/
 
 .img-fluid{
@@ -135,12 +64,32 @@ h1{
   height: 230px;
 }
 
-<<<<<<< HEAD
 .CARDS{
   display:inline-flex;
   margin: 50px;
   align-content: center;
-=======
+}
+.infoGym{
+  display: inline-block;
+  border: 4px solid white;
+  color: white;
+  border-style:groove;
+}
+
+.infoGym h4{
+  text-align: center;
+}
+
+.infoGym p{
+  margin: 4%;
+}
+
+.infoGym img{
+  display: inline-flex;
+  float: right;
+  margin: 4%;
+  padding: 3%;
+}
 
 /*footer*/
 
@@ -158,20 +107,17 @@ h1{
 
 .items{
   float: left;
-  display: inline-block;
+  display: inline;
 }
 
 #contenido {
   padding-bottom:50px;
->>>>>>> main
 }
 
 .letras-blancas{
   color: white;
 }
 
-<<<<<<< HEAD
-=======
 html, body {
   margin:0;
   padding:0;
@@ -189,4 +135,3 @@ html, body {
   left:0;
   width:100%;
 }
->>>>>>> main
