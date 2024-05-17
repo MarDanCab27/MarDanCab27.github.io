@@ -34,6 +34,11 @@ h2{
     border: 5px solid;
 }
 
+.LinkMenuUsuario{
+  text-align: center;
+  margin: 2%;
+}
+
 /*Juan, ambUsuarios*/
 
 
@@ -100,6 +105,17 @@ h2{
   text-align: center;
   margin: 2%;
   padding: 2%;
+}
+
+.infoGym{
+  display: inline-block;
+  border: 4px solid white;
+  color: white;
+ border-style:groove;
+}
+
+.infoGym h4{
+  text-align: center;
 }
 
 
