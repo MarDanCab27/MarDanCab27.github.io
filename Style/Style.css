@@ -1,0 +1,174 @@
+/*       
+Emir Sarasola
+Juan Del Lantonia
+Marcelo Cabrera 
+*/
+
+/*Ingreso*/
+body{
+    background-color: black;
+    margin: 0%;
+}
+
+h2{
+    margin: 7%;
+    font-style: oblique;
+}
+
+.tituloInicio{
+    align-items: center;
+    text-align: center;
+    border: 5px outset black;
+    background-color: white;
+    font-style: oblique;
+}
+
+.BotonIngreso{
+    margin: 8%;
+}
+
+.form-group{
+    margin: 5%;
+}
+
+.label-chiquitas{
+    font-size: 20px;
+    color: white;
+    font-style: oblique;
+}
+
+.TablaUsuario{
+    border-style: outset;
+    border: 5px solid;
+}
+
+.LinkMenuUsuario{
+  text-align: center;
+  margin: 2%;
+}
+
+
+
+  .img-fluid{
+    width: 230px;
+    height: 230px;
+  }
+  
+  .CARDS{
+    display:inline-flex;
+    margin: 50px;
+    align-content: center;
+  }
+  
+  .letras-blancas{
+    color: white;
+  }
+
+
+  /*home*/
+.principal{
+  text-align: center;
+  margin: 2%;
+  padding: 2%;
+}
+
+.img-fluid{
+  width: 230px;
+  height: 230px;
+}
+
+.CARDS{
+  display:inline-flex;
+  margin: 50px;
+  align-content: center;
+}
+.infoGym{
+  display: inline-block;
+  border: 4px solid white;
+  color: white;
+  border-style:groove;
+}
+
+.infoGym h4{
+  text-align: center;
+}
+
+.infoGym p{
+  margin: 4%;
+}
+
+.infoGym img{
+  display: inline-flex;
+  float: right;
+  margin: 4%;
+  padding: 3%;
+}
+
+/*footer*/
+
+#pie{
+  height: 50px;
+  line-height: 50px;
+  background: white;
+  color: black;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.items{
+  float: left;
+  display: inline;
+}
+
+#contenido {
+  padding-bottom:50px;
+}
+
+.letras-blancas{
+  color: white;
+}
+
+html, body {
+  margin:0;
+  padding:0;
+  height:100%;
+}
+
+#pagina{
+  position: relative;
+  min-height: 100%;
+}
+
+.pieIngreso{
+  height:50px;
+  line-height:50px;
+  background:white;
+  color:black;
+  text-align:center;
+  position:absolute;
+  bottom:0;
+  left:0;
+  width:100%;
+}
+
+.RUTINAS{
+  border: 5px solid whitesmoke;
+  text-align: center;
+  display: inline;
+  color: white;
+}
+
+.RUTINAS li{
+  list-style: none;
+}
+.RUTINAS ul{
+  color: white;
+  border: 3px solid white;
+}
+
+.bodyOscuro{
+  background-color: black;
+}
