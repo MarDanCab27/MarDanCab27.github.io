@@ -1,0 +1,116 @@
+.principal{
+    text-align: center;
+    margin: 1%;
+    padding: 2%;
+    margin-bottom: 30px; 
+  }
+  
+  .img-fluid{
+    width: 230px;
+    height: 230px;
+  }
+  
+  .CARDS{
+    display:inline-flex;
+    margin: 50px;
+    align-content: center;
+  }
+
+  body{
+    background-color: black;
+    min-height: 100vh; /* Asegura que el cuerpo se expanda al menos hasta el alto de la ventana */
+    position: relative;
+  }
+
+  .tituloInicio{
+    border: 3px solid black;
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 10px 10px rgba(255, 255, 255, 0.3); /* Sombra */
+  }
+
+  .infoGym {
+    display: block;
+    border: 4px solid #333; 
+    border-radius: 10px;
+    padding: 20px; 
+    width: 70%; 
+    margin: 0 auto; 
+    background-color: #ffffff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 50px;
+  }
+
+  .ListaHome{
+    list-style: none;
+  }
+  
+  .infoGym .TextoHome {
+    text-align: center; 
+  }
+  
+  .infoGym p, .infoGym ul {
+    text-align: center; 
+  }
+  
+  .infoGym .imagen-gym {
+    display: block;
+    margin: 20px auto; 
+    max-width: 100%; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+  }
+  .infoGym::after {
+    content: "Visítanos para conocer más sobre nuestras instalaciones y servicios."; /* Mensaje adicional */
+    display: block;
+    margin-top: 20px;
+    font-style: italic;
+  }
+  
+  .infoGym a {
+    color: #007bff; 
+  }
+
+  /* footer */
+
+  #pagina{
+    min-height: 100%; /* Asegura que la página se expanda al menos hasta el alto del contenido */
+
+  }
+
+  #pie {
+    height: 50px;
+    line-height: 50px;
+    background: white;
+    color: black;
+    text-align: center;
+    position: absolute; 
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 30px; /
+  }
+
+
+.items {
+  display: inline-block;
+  float: right;
+  margin-right: 20px;
+}
+
+#contenido {
+  padding-bottom: 100px; /* Ajusta el espacio para el footer */
+}
+
+.letras-blancas {
+  color: white;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
