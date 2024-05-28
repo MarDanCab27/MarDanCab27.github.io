@@ -93,15 +93,19 @@
   }
   
   .infoGym p, .infoGym ul {
-    text-align: center; 
+    float: right;
+    margin-right: 20%;
+    margin-top: 7%;
+    list-style: none;
   }
   
   .infoGym .imagen-gym {
-    display: block;
+    display: flexbox;
     margin: 20px auto; 
     max-width: 100%; 
     border-radius: 10px; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    height: 200px;
   }
   .infoGym::after {
     content: "Visítanos para conocer más sobre nuestras instalaciones y servicios."; /* Mensaje adicional */
