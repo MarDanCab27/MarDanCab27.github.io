@@ -1,3 +1,45 @@
+/* navbar  */
+.NavMenu {
+  background-color: black;
+  width: 100%;
+}
+
+.NavBarMenu {
+  background-color: black;
+  margin: 0; /* Elimina el margen */
+  padding: 0; /* Elimina el relleno */
+}
+
+.navbar-toggler {
+  border-color: transparent;
+}
+
+.container-fluid.NavMenu {
+  padding: 8px 16px; /* Agrega relleno interno para que el fondo se extienda completamente */
+}
+
+.logoPrincipal{
+  color: #0074A0;
+}
+
+.LinkABM .nav-link {
+  color: #0074A0; 
+}
+
+.LinkABM .nav-link.active {
+  background-color: rgb(0, 0, 0); 
+  color: #0074A0; 
+}
+
+.iconoExit{
+  color: #0074A0; 
+  display:flex;
+  float: right;
+  margin-left: 73%;
+  margin-right: 0;
+}
+
+/* principal */
 .principal{
     text-align: center;
     margin: 1%;
@@ -17,7 +59,7 @@
   }
 
   body{
-    background-color: black;
+    background-color: #283747;
     min-height: 100vh; /* Asegura que el cuerpo se expanda al menos hasta el alto de la ventana */
     position: relative;
   }
@@ -25,20 +67,20 @@
   .tituloInicio{
     border: 3px solid black;
     color: black;
-    background-color: white;
+    background-color: #0074A0;
     border-radius: 15px;
-    box-shadow: 5px 10px 10px rgba(255, 255, 255, 0.3); /* Sombra */
+    box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.3); /* Sombra */
   }
 
   .infoGym {
     display: block;
-    border: 4px solid #333; 
+    border: 4px solid #000000; 
     border-radius: 10px;
     padding: 20px; 
     width: 70%; 
     margin: 0 auto; 
-    background-color: #ffffff; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: #0074A0; 
+    box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.3); /* Sombra */
     margin-bottom: 50px;
   }
 
@@ -76,20 +118,19 @@
 
   #pagina{
     min-height: 100%; /* Asegura que la página se expanda al menos hasta el alto del contenido */
-
   }
 
   #pie {
     height: 50px;
     line-height: 50px;
-    background: white;
-    color: black;
+    background: black;
+    color: #0074A0;
     text-align: center;
     position: absolute; 
     bottom: 0;
     left: 0;
     width: 100%;
-    margin-top: 30px; /
+    margin-top: 30px;
   }
 
 
