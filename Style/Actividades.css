@@ -2,31 +2,54 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgb(0, 0, 0);
+    background-color: #283747;
 }
 
 .container-fluid {
     padding: 0 20px;
 }
 
-/* Estilos de la barra de navegación */
+/* navbar  */
+.NavMenu {
+    background-color: black;
+    width: 100%;
+  }
+  
+  .NavBarMenu {
+    background-color: black;
+    margin: 0; /* Elimina el margen */
+    padding: 0; /* Elimina el relleno */
+  }
+  
+  .navbar-toggler {
+    border-color: transparent;
+  }
+  
+  .container-fluid.NavMenu {
+    padding: 8px 16px; /* Agrega relleno interno para que el fondo se extienda completamente */
+  }
+  
+  .logoPrincipal{
+    color: #0074A0;
+  }
+  
+  .LinkABM .nav-link {
+    color: #0074A0; 
+  }
+  
+  .LinkABM .nav-link.active {
+    background-color: rgb(0, 0, 0); 
+    color: #0074A0; 
+  }
+  
+  .iconoExit{
+    color: #0074A0; 
+    display:flex;
+    float: right;
+    margin-left: 73%;
+    margin-right: 0;
+  }
 
-.navbar {
-    background-color: #343a40;
-}
-
-.navbar-brand {
-    color: #00000094;
-    font-weight: bold;
-}
-
-.nav-link {
-    color: #00000094; /* Cambia el color de los enlaces */
-}
-
-.nav-link:hover {
-    color: #490707; 
-}
 
 /* Estilos de las tarjetas de actividades */
 
@@ -69,7 +92,7 @@ body {
 .RUTINAS {
     display: flex;
     justify-content: space-around; 
-    background-color: #000000; 
+    background-color: #283747; 
     padding: 20px; 
     border-radius: 10px; 
     margin-top: 20px; 
@@ -108,7 +131,7 @@ margin-bottom: 5px; /* espaciado entre los elementos de la lista */
 
 .card {
     margin: 20px auto;
-    background-color: #ffffff; 
+    background-color: #0074A0 ; 
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease; /* agrega la transición para las tarjetas :p */
@@ -121,10 +144,33 @@ margin-bottom: 5px; /* espaciado entre los elementos de la lista */
 .RUTINAS {
     display: flex;
     justify-content: space-around;
-    background-color: #000000;
+    background-color: #283747;
     padding: 20px; 
     border-radius: 10px;
     margin-top: 20px; 
+    color: black;
+}
+
+.titulo1 h4{
+    color:#0074A0 ;
+    border: 1px outset black;
+    text-align: center;
+    background-color: black;
+}
+
+
+.titulo2 h4{
+    color: #0074A0;
+    border: 1px outset black;
+    text-align: center;
+    background-color: black;
+}
+
+.titulo3 h4{
+    color: #0074A0;
+    border: 1px outset black;
+    text-align: center;
+    background-color: black;
 }
 
 .rutina1,
@@ -132,7 +178,8 @@ margin-bottom: 5px; /* espaciado entre los elementos de la lista */
 .rutina3 {
     flex-basis: 30%;
     padding: 10px; 
-    background-color: #ffffff;
+    color: black;
+    background-color: #0074A0;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease; /*transición para las rutinas */
@@ -142,22 +189,6 @@ margin-bottom: 5px; /* espaciado entre los elementos de la lista */
 .rutina2:hover,
 .rutina3:hover {
     transform: translateY(-5px); /* desplaza la rutina al pasar el ratón */
-}
-
-#pie {
-    background-color: #343a40;
-    color: #ffffff;
-    text-align: center;
-    padding: 20px 0;
-}
-
-#pie .items a {
-    color: #ffffff;
-    margin: 0 10px;
-}
-
-#pie .items a:hover {
-    color: #cccccc;
 }
 
 /* Animación de desplazamiento suave */
@@ -170,4 +201,24 @@ html {
     max-width: 100%; /*ancho máximo al 100% */
     height: auto; 
     width: 300px; 
+}
+
+
+/* footer  */
+
+
+#pie {
+    background-color: black;
+    color: #0074A0;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#pie .items a {
+    color: #0074A0;
+    margin: 0 10px;
+}
+
+#pie .items a:hover {
+    color: #0074A0;
 }
