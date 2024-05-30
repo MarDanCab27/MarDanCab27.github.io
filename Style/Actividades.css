@@ -137,6 +137,18 @@ margin-bottom: 5px; /* espaciado entre los elementos de la lista */
     transition: transform 0.3s ease; /* agrega la transición para las tarjetas :p */
 }
 
+.card-text{
+    color: black;
+}
+
+.card-title{
+    color: black;
+}
+
+.Precio{
+    color: black;
+}
+
 .card:hover {
     transform: scale(1.05); 
 }

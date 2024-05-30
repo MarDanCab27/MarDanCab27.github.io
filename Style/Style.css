@@ -29,6 +29,7 @@ h2{
     border: 4px outset black;
     border-radius: 8px;
     margin-top: 10px;
+    box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.1);
 }
 
 .Titulo2Ingreso{
@@ -43,6 +44,7 @@ h2{
     margin: 8%;
     background-color: #0074A0;
     border-radius: 15px;
+    box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.1);
 }
 
 .form-group{
@@ -117,6 +119,10 @@ html, body {
   left:0;
   width:100%;
   margin-bottom: 0%;
+}
+.logo{
+  display: inline-flex;
+  float:left;
 }
 
 .TablaUsuario{
