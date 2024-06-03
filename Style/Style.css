@@ -100,12 +100,7 @@ h2{
 html, body {
   margin:0;
   padding:0;
-  height:100%;
-}
 
-#pagina{
-  position: relative;
-  min-height: 100%;
 }
 
 .pieIngreso{
@@ -120,6 +115,7 @@ html, body {
   width:100%;
   margin-bottom: 0%;
 }
+
 .logo{
   display: inline-flex;
   float:left;
