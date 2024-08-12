@@ -1,0 +1,165 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #283747;
+  }
+  
+  #pagina {
+    flex: 1;
+  }
+  
+  /* navbar  */
+  .NavMenu {
+    background-color: black;
+    width: 100%;
+  }
+  
+  .NavBarMenu {
+    background-color: black;
+    margin: 0; /* Elimina el margen */
+    padding: 0; /* Elimina el relleno */
+  }
+  
+  .navbar-toggler {
+    border-color: transparent;
+  }
+  
+  .container-fluid.NavMenu {
+    padding: 8px 16px; /* Agrega relleno interno para que el fondo se extienda completamente */
+  }
+  
+  .logoPrincipal {
+    color: #0074A0;
+  }
+  
+  .LinkABM .nav-link {
+    color: #0074A0;
+  }
+  
+  .LinkABM .nav-link.active {
+    background-color: rgb(0, 0, 0);
+    color: #0074A0;
+  }
+  
+  .iconoExit {
+    color: #0074A0;
+    display: flex;
+    float: right;
+    margin-left: 73%;
+    margin-right: 0;
+  }
+  
+  /* principal */
+  .principal {
+    text-align: center;
+    margin: 1%;
+    padding: 2%;
+    margin-bottom: 30px;
+  }
+  
+  .img-fluid, .maquina1 img {
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .CARDS {
+    display: inline-flex;
+    margin: 50px;
+    align-content: center;
+  }
+  
+  .tituloInicio {
+    border: 3px solid black;
+    color: black;
+    background-color: #0074A0;
+    border-radius: 15px;
+    box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.3); /* Sombra */
+  }
+  
+  .TituloGym {
+    text-align: center;
+  }
+  
+  .infoGym {
+    display: block;
+    border: 4px solid #000000;
+    border-radius: 10px;
+    padding: 20px;
+    width: 84%;
+    margin: 0 auto;
+    background-color: #0074A0;
+    box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.3); /* Sombra */
+    margin-bottom: 50px;
+  }
+  
+  .ListaHome {
+    list-style: none;
+  }
+  
+  .imagen-gym .ListaHome {
+    display: inline;
+  }
+  
+  .infoGym .TextoHome {
+    text-align: center;
+  }
+  
+  .infoGym p, .infoGym ul {
+    float: right;
+    margin-right: 20%;
+    margin-top: 7%;
+    list-style: none;
+  }
+  
+  .infoGym .imagen-gym {
+    display: flexbox;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    height: 200px;
+  }
+  
+  .infoGym::after {
+    content: "Visítanos para conocer más sobre nuestras instalaciones y servicios."; /* Mensaje adicional */
+    display: block;
+    margin-top: 20px;
+    font-style: italic;
+  }
+  
+  .infoGym a {
+    color: #007bff;
+  }
+  
+  .Maquinas {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .maquina1 img {
+    margin: 10px;
+  }
+  
+  /* footer */
+  #pie {
+    background-color: black;
+    color: #0074A0;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+  }
+  
+  #pie .items a {
+    color: #0074A0;
+    margin: 0 10px;
+  }
+  
+  #pie .items a:hover {
+    color: #0074A0;
+  }
