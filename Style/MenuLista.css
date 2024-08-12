@@ -1,0 +1,92 @@
+/* navbar  */
+.NavMenu {
+    background-color: black;
+    width: 100%;
+  }
+  
+  .NavBarMenu {
+    background-color: black;
+    margin: 0; /* Elimina el margen */
+    padding: 0; /* Elimina el relleno */
+  }
+  
+  .navbar-toggler {
+    border-color: transparent;
+  }
+  
+  .container-fluid.NavMenu {
+    padding: 8px 16px; /* Agrega relleno interno para que el fondo se extienda completamente */
+  }
+  
+  .logoPrincipal{
+    color: #0074A0;
+  }
+  
+  .LinkABM .nav-link {
+    color: #0074A0; 
+  }
+  
+  .LinkABM .nav-link.active {
+    background-color: rgb(0, 0, 0); 
+    color: #0074A0; 
+  }
+  
+  .iconoExit{
+    color: #0074A0; 
+    display:flex;
+    float: right;
+    margin-left: 73%;
+    margin-right: 0;
+  }
+
+  /* body  */ 
+  html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+  } 
+
+  body{
+    background-color: #283747;
+    min-height: 100vh; /* Asegura que el cuerpo se expanda al menos hasta el alto de la ventana */
+    position: relative;
+  }
+
+  .TablaUsuario{
+    border-style: outset;
+    border: 5px solid;
+  }
+
+  .boton-lista{
+    align-items: center;
+    display: flex;
+    margin-left: 40%;
+    margin-right: 40%;
+  }
+
+  .botonambEditar{
+    margin-right: 10%;
+  }
+
+  .botonambBorrar{
+    margin-left: 10%;
+  }
+
+   /* footer */
+
+   #pie {
+    background-color: black;
+    color: #0074A0;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 100%;
+}
+
+#pie .items a {
+    color: #0074A0;
+    margin: 0 10px;
+}
+
+#pie .items a:hover {
+    color: #0074A0;
+}

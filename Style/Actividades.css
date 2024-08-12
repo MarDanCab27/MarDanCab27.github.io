@@ -1,0 +1,236 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #283747;
+}
+
+.container-fluid {
+    padding: 0 20px;
+}
+
+/* navbar  */
+.NavMenu {
+    background-color: black;
+    width: 100%;
+  }
+  
+  .NavBarMenu {
+    background-color: black;
+    margin: 0; /* Elimina el margen */
+    padding: 0; /* Elimina el relleno */
+  }
+  
+  .navbar-toggler {
+    border-color: transparent;
+  }
+  
+  .container-fluid.NavMenu {
+    padding: 8px 16px; /* Agrega relleno interno para que el fondo se extienda completamente */
+  }
+  
+  .logoPrincipal{
+    color: #0074A0;
+  }
+  
+  .LinkABM .nav-link {
+    color: #0074A0; 
+  }
+  
+  .LinkABM .nav-link.active {
+    background-color: rgb(0, 0, 0); 
+    color: #0074A0; 
+  }
+  
+  .iconoExit{
+    color: #0074A0; 
+    display:flex;
+    float: right;
+    margin-left: 73%;
+    margin-right: 0;
+  }
+
+
+/* Estilos de las tarjetas de actividades */
+
+.card {
+    margin: 20px auto;
+    background-color: #ffffff; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agrega sombra a las tarjetas */
+}
+
+.card-title {
+    color: #333333; 
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    color: #666666; 
+}
+
+/* Estilos del footer */
+
+#pie {
+    background-color: #343a40; 
+    color: #ffffff; 
+    text-align: center;
+    padding: 20px 0;
+}
+
+#pie .items a {
+    color: #ffffff; /* Cambia el color de los enlaces del pie de página */
+    margin: 0 10px;
+}
+
+#pie .items a:hover {
+    color: #cccccc; /* Cambia el color al pasar el ratón por encima */
+}
+
+
+.RUTINAS {
+    display: flex;
+    justify-content: space-around; 
+    background-color: #283747; 
+    padding: 20px; 
+    border-radius: 10px; 
+    margin-top: 20px; 
+}
+
+.rutina1,
+.rutina2,
+.rutina3 {
+    flex-basis: 30%; /* Ancho de cada rutina */
+    padding: 10px; 
+    background-color: #ffffff;
+    border-radius: 5px; /* Borde redondeado */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.rutina1 h4,
+.rutina2 h4,
+.rutina3 h4 {
+color: #343a40;
+}
+
+.rutina1 ul,
+.rutina2 ul,
+.rutina3 ul {
+list-style-type: none; 
+padding: 0; /* sin espacio interno */
+}
+
+.rutina1 ul li,
+.rutina2 ul li,
+.rutina3 ul li {
+margin-bottom: 5px; /* espaciado entre los elementos de la lista */
+}
+
+/* Ajuste de diseño */
+
+.card {
+    margin: 20px auto;
+    background-color: #0074A0 ; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* agrega la transición para las tarjetas :p */
+}
+
+.card-text{
+    color: black;
+}
+
+.card-title{
+    color: black;
+}
+
+.Precio{
+    color: black;
+}
+
+.card:hover {
+    transform: scale(1.05); 
+}
+
+.RUTINAS {
+    display: flex;
+    justify-content: space-around;
+    background-color: #283747;
+    padding: 20px; 
+    border-radius: 10px;
+    margin-top: 20px; 
+    color: black;
+}
+
+.titulo1 h4{
+    color:#0074A0 ;
+    border: 1px outset black;
+    text-align: center;
+    background-color: black;
+}
+
+
+.titulo2 h4{
+    color: #0074A0;
+    border: 1px outset black;
+    text-align: center;
+    background-color: black;
+}
+
+.titulo3 h4{
+    color: #0074A0;
+    border: 1px outset black;
+    text-align: center;
+    background-color: black;
+}
+
+.rutina1,
+.rutina2,
+.rutina3 {
+    flex-basis: 30%;
+    padding: 10px; 
+    color: black;
+    background-color: #0074A0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease; /*transición para las rutinas */
+}
+
+.rutina1:hover,
+.rutina2:hover,
+.rutina3:hover {
+    transform: translateY(-5px); /* desplaza la rutina al pasar el ratón */
+}
+
+/* Animación de desplazamiento suave */
+
+html {
+    scroll-behavior: smooth;
+}
+
+.card img {
+    max-width: 100%; /*ancho máximo al 100% */
+    height: auto; 
+    width: 300px; 
+}
+
+
+/* footer  */
+
+
+#pie {
+    background-color: black;
+    color: #0074A0;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#pie .items a {
+    color: #0074A0;
+    margin: 0 10px;
+}
+
+#pie .items a:hover {
+    color: #0074A0;
+}

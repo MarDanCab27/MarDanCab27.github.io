@@ -1,6 +1,7 @@
 /*
 Juan Del Lantonia
 */
+
 .form-cont {
   max-width: 500px;
   margin: 0 auto;
@@ -13,6 +14,10 @@ Juan Del Lantonia
 .h1-abm {
   text-align: center;
   color: #f0f0f0;
+}
+
+.FormAmbUsuarios{
+  margin-top: 5%;
 }
 
 .abmcampos {

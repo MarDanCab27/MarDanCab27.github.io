@@ -6,8 +6,9 @@ Marcelo Cabrera
 
 /*Ingreso*/
 body{
-    background-color: black;
+    background-color: #283747;
     margin: 0%;
+    padding: 0%;
 }
 
 h2{
@@ -18,13 +19,32 @@ h2{
 .tituloInicio{
     align-items: center;
     text-align: center;
-    border: 5px outset black;
-    background-color: white;
+    background-color: #0074A0;
     font-style: oblique;
+    color: black;
+    box-sizing: border-box;
+    width: 246px;
+    height: 58px;
+    margin: auto;
+    border: 4px outset black;
+    border-radius: 8px;
+    margin-top: 10px;
+    box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Titulo2Ingreso{
+  color: black;
+}
+
+.ingresoUsuario{
+  color: black;
 }
 
 .BotonIngreso{
     margin: 8%;
+    background-color: #0074A0;
+    border-radius: 15px;
+    box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.1);
 }
 
 .form-group{
@@ -33,75 +53,23 @@ h2{
 
 .label-chiquitas{
     font-size: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
     font-style: oblique;
-}
-
-.TablaUsuario{
-    border-style: outset;
-    border: 5px solid;
 }
 
 .LinkMenuUsuario{
   text-align: center;
   margin: 2%;
+  color: #0074A0;
 }
 
-
-
-  .img-fluid{
+.img-fluid{
     width: 230px;
     height: 230px;
   }
   
-  .CARDS{
-    display:inline-flex;
-    margin: 50px;
-    align-content: center;
-  }
-  
-  .letras-blancas{
+.letras-blancas{
     color: white;
-  }
-
-
-  /*home*/
-.principal{
-  text-align: center;
-  margin: 2%;
-  padding: 2%;
-}
-
-.img-fluid{
-  width: 230px;
-  height: 230px;
-}
-
-.CARDS{
-  display:inline-flex;
-  margin: 50px;
-  align-content: center;
-}
-.infoGym{
-  display: inline-block;
-  border: 4px solid white;
-  color: white;
-  border-style:groove;
-}
-
-.infoGym h4{
-  text-align: center;
-}
-
-.infoGym p{
-  margin: 4%;
-}
-
-.infoGym img{
-  display: inline-flex;
-  float: right;
-  margin: 4%;
-  padding: 3%;
 }
 
 /*footer*/
@@ -109,8 +77,8 @@ h2{
 #pie{
   height: 50px;
   line-height: 50px;
-  background: white;
-  color: black;
+  background: rgb(0, 0, 0);
+  color: #0074A0;
   text-align: center;
   position: absolute;
   bottom: 0;
@@ -119,56 +87,41 @@ h2{
 }
 
 .items{
-  float: left;
+  float: right;
   display: inline;
+  color: #0074A0;
+
 }
 
 #contenido {
   padding-bottom:50px;
 }
 
-.letras-blancas{
-  color: white;
-}
-
 html, body {
   margin:0;
   padding:0;
-  height:100%;
-}
 
-#pagina{
-  position: relative;
-  min-height: 100%;
 }
 
 .pieIngreso{
   height:50px;
   line-height:50px;
-  background:white;
-  color:black;
+  background:rgb(0, 0, 0);
+  color:#0074A0;
   text-align:center;
   position:absolute;
   bottom:0;
   left:0;
   width:100%;
+  margin-bottom: 0%;
 }
 
-.RUTINAS{
-  border: 5px solid whitesmoke;
-  text-align: center;
-  display: inline;
-  color: white;
+.logo{
+  display: inline-flex;
+  float:left;
 }
 
-.RUTINAS li{
-  list-style: none;
-}
-.RUTINAS ul{
-  color: white;
-  border: 3px solid white;
-}
-
-.bodyOscuro{
-  background-color: black;
+.TablaUsuario{
+  border-style: outset;
+  border: 5px solid;
 }
