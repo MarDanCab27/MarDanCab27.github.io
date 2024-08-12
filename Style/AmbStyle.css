@@ -101,3 +101,20 @@ Juan Del Lantonia
     background-color: black;
     color: #f0f0f0;
   }
+  /* footer */
+
+  #pie {
+    background-color: black;
+    color: #0074A0;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#pie .items a {
+    color: #0074A0;
+    margin: 0 10px;
+}
+
+#pie .items a:hover {
+    color: #0074A0;
+}
