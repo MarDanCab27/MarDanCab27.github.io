@@ -26,15 +26,17 @@
             <div class="form-group">
             <label for="nomUser"><h7 class="label-chiquitas">Usuario</h7></label> 
               <input type="text" name="nomUser" id="nomUser" class="form-control" required placeholder="Usuario">
+              <p id="contraUser-error" class="error"></p>
             </div>
 
             <div class="form-group mb-3">
               <label for="contraUser" class="label-chiquitas">Contraseña</label>
               <input type="password" name="contraUser" id="contraUser" placeholder="Contraseña" class="form-control">
+              <p id="contraUser-error" class="error"></p>
             </div>
 
               <div class="BotonIngreso">
-              <a href="menuAdmin.html" target="_blank"><input type="button" name="ingresar" id="ingresar" value="Ingresar" class="btn btn-primary btn-block text-center form-control" ></a>
+                <button type="button" id="ingresar" class="btn btn-primary btn-block text-center form-control">Ingresar</button>
               </div>
 
               <div class="LinkMenuUsuario">
@@ -58,7 +60,7 @@
   </div>
 </div>
 
-
+<script src="js/valid.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </body>
