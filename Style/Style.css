@@ -40,6 +40,15 @@ h2{
   color: black;
 }
 
+.CheckIngreso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Espaciado opcional */
+    color: black
+}
+
+
 .BotonIngreso{
     margin: 8%;
     background-color: #0074A0;
@@ -51,10 +60,36 @@ h2{
     margin: 5%;
 }
 
-.label-chiquitas{
+.label-Contraseña{
     font-size: 20px;
     color: rgb(0, 0, 0);
     font-style: oblique;
+}
+
+.ContraAdmin{
+  background-color: grey;
+  font-size: 20px;
+  font-style: oblique;
+  width: 490px;
+}
+
+/* Para que el label se vea como deshabilitado */
+.disabled {
+  color: gray;
+  cursor: not-allowed;
+}
+
+.enabled {
+  color: black;
+  cursor: text;
+}
+
+/*labels*/
+
+.label-Usuario{
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  font-style: oblique;
 }
 
 .LinkMenuUsuario{
