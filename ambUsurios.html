@@ -60,12 +60,13 @@
         </div>
       </div>
     </nav>
+
     <div class="FormAmbUsuarios">
       <div class="form-cont">
         <h1 class="h1-abm">Agregar un nuevo usuario</h1>
   <form id="formulario-usuarios">
         <div class="abmcampos">
-          <label for="usuario">Nombre Usuario</label>
+          <label for="usuario">Nombre</label>
           <input type="text" id="usuario" name="usuario" required placeholder="Pepe ">
         </div>
         <div class="abmcampos">
@@ -77,15 +78,15 @@
           <input type="text" id="edad" name="edad" required placeholder="Ingresar la edad del usuario">
         </div>
         <div class="abmcampos">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" required placeholder="Ingresar el email del usuario">
+          <label for="DNI">DNI</label>
+          <input type="number" id="DNI-Usuario" name="DNI" required placeholder="Ingresar el DNI del usuario">
         </div>
         <div class="abmcampos">
         <select name="actividad" id="actividad" required>
-        <option value="" disabled selected> Seleccione la actividad </option>
-        <option value="Musculación"> Musculación </option>
-        <option value="Crossfit">Crossfit</option>
-        <option value="Spinning">Spinning</option>
+        <option value="" disabled selected> Seleccione el Plan </option>
+        <option value="Musculación"> 1 Dia </option>
+        <option value="Crossfit">2 Dias</option>
+        <option value="Spinning">3 Dias</option>
         </select>
         <div class="col-12">
         <button class="botoncarga" type="submit">Cargar</button>

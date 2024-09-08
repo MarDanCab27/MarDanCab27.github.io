@@ -60,6 +60,7 @@ h2{
     margin: 5%;
 }
 
+/*modificar el label contraseña(agregar candadito o algo paraidentificar que este bloqueado para el user)*/
 .label-Contraseña{
     font-size: 20px;
     color: rgb(0, 0, 0);

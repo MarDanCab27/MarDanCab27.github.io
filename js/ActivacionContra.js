@@ -1,19 +1,16 @@
-// Obtenemos el checkbox, el input de contraseña y el label
-const checkAdmin = document.getElementById('checkadmin');
-const passwordInput = document.getElementById('contraAdmin');
-const passwordLabel = document.getElementById('labelPassword');
+// Manejar el clic en el botón de ingresar
+document.getElementById('ingresar').addEventListener('click', (e) => {
+    e.preventDefault(); // Evitar el comportamiento por defecto del botón
 
-// Evento para activar/desactivar el campo de contraseña
-checkAdmin.addEventListener('change', function() {
-    if (checkAdmin.checked) {
-        // Si el checkbox está marcado, habilitamos el campo de contraseña y el label
-        passwordInput.disabled = false;
-        passwordLabel.classList.remove('disabled');
-        passwordLabel.classList.add('enabled');
+    // Obtener los valores ingresados
+    const usuarioIngresado = document.getElementById('nomUser').value;
+    const contraseñaIngresada = document.getElementById('contraUser').value;
+
+    // Validar credenciales
+    if (usuarioIngresado === credencialesValidas.usuario && contraseñaIngresada === credencialesValidas.contraseña) {
+        alert('Inicio de sesión exitoso.');
+        window.location.href = 'menuAdmin.html'; // Redirigir a la página de destino
     } else {
-        // Si no está marcado, deshabilitamos el campo de contraseña y el label
-        passwordInput.disabled = true;
-        passwordLabel.classList.remove('enabled');
-        passwordLabel.classList.add('disabled');
+        alert('Credenciales incorrectas. Por favor, intente de nuevo.');
     }
 });
