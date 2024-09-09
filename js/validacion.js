@@ -2,29 +2,40 @@ const formulario = document.getElementById('formulario-usuarios');
 const inputs = document.querySelectorAll('#formulario-usuarios input');
 
 const expresiones = {
-    usuario : /^[a-zA-Z0-9\_\-]{4,16}$/,
-    nombre : /^[a-zA-ZÀ-ÿ\s]{1,40}$/,
-    correo : /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-.]+$/,  
+    nombre : /^[a-zA-Z0-9\_\-]{4,16}$/,
+    apellido : /^[a-zA-ZÀ-ÿ\s]{3,40}$/,
+    correo : /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-.]+$/,
+    eda : /^[0-9]{1,3}$/,
 }
 
-const campos = {
-    usuario : false,
-    nombre : false,
-    correo : false,
-}
-
-validarCampo = (expresion, input, campo) => {
-    if (expresion.test(input.value)){
-        document.getElementById(`${campo}`).classList
-    }
-}
-
-const validarABM= (e)=>{
+const validarFormulario = (e)=>{
     switch(e.target.name){
-        case "usuario":
-            validarCampo
+        case "nombre":
+            if(expresiones.nombre.test(e.target.value)){
+               
+            }
+            else{
+                document.getElementById('grupo-nombre').classList.add('abm-correcto');
+                console.log("mal");
+            }
         break;
 
-        case "nombre"
+        case "correo":
+
+        break;
+        
+        case "edad":
+
+        break;
     }
 }
+
+inputs.forEach((input)=>{
+    input.addEventListener('keyup', validarFormulario);
+    input.addEventListener('blur', validarFormulario);
+});
+
+formulario.addEventListener('submit', (e)=> {
+    e.preventDefault();
+
+});

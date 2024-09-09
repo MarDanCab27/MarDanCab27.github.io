@@ -1,0 +1,32 @@
+.FormAmbUsuarios{
+    margin-top: 5%;
+  }
+  
+.abm_nombre, .abm_apellido, .abm_edad, .abm_mail{
+    margin-bottom: 40px;
+  }
+  
+.formulario-input {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+  }
+.formulario-select {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+  }
+  
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.abm-correcto .abm-estado {
+	color: #1ed12d;
+	opacity: 1;
+}
+.abm-incorrecto .abm-label {
+	color: #bb2929;
+}
