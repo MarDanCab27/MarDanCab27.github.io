@@ -6,6 +6,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="Style/AmbStyle.css">
     <link rel="stylesheet" href="Style/Style.css">
+    <link rel="stylesheet" href="Style/FormABM.css">
     <title>AMBusuarios</title>
 </head>
 <body>
@@ -60,21 +61,25 @@
         </div>
       </div>
     </nav>
+
     <div class="FormAmbUsuarios">
       <div class="form-cont">
         <h1 class="h1-abm">Agregar un nuevo usuario</h1>
   <form id="formulario-usuarios">
-        <div class="abmcampos">
-          <label for="usuario">Nombre Usuario</label>
-          <input type="text" id="usuario" name="usuario" required placeholder="Pepe ">
+        
+        <div class="abm_nombre" id="grupo-nombre">
+          <label for="nombre" class="abm-label">Nombre Usuario</label>
+          <input type="text" id="usuario" name="nombre" class="formulario-input" required placeholder="Pepe ">
         </div>
-        <div class="abmcampos">
+
+        <div class="abm_apellido">
           <label for="apellido">Apellido </label>
-          <input type="text" id="apellido" name="apellido" required placeholder="Mujica">
+          <input type="text" id="apellido" name="apellido" class="formulario-input" required placeholder="Mujica">
         </div>
-        <div class="abmcampos">
+
+        <div class="abm_edad">
           <label for="edad">Edad</label>
-          <input type="text" id="edad" name="edad" required placeholder="Ingresar la edad del usuario">
+          <input type="text" id="edad" name="edad" id="edad" class="formulario-input" required placeholder="Ingresar la edad del usuario">
         </div>
         <div class="abmcampos">
           <label for="email">Plan</label>
@@ -108,6 +113,6 @@
   </div>
 </div>
 
-    
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="js/validacion.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>

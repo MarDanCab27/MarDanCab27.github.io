@@ -21,25 +21,6 @@ body{
   color: #f0f0f0;
 }
 
-.FormAmbUsuarios{
-  margin-top: 5%;
-}
-
-.abmcampos {
-  margin-bottom: 40px;
-}
-
-.abmcampos input {
-  width: 100%;
-  padding: 12px;
-  box-sizing: border-box;
-}
-.abmcampos select {
-  width: 100%;
-  padding: 12px;
-  box-sizing: border-box;
-}
-
 .muestra-usuarios {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -47,13 +28,6 @@ body{
     margin:20px;
     margin-bottom: 20px;
 }
-
-.form-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 
 .itemH{
     background-color: #00ffbf;
@@ -123,4 +97,8 @@ body{
 
 #pie .items a:hover {
     color: #0074A0;
+}
+
+.error{
+  background-color: red;
 }
