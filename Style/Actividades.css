@@ -169,7 +169,10 @@ margin-bottom: 5px; /* espaciado entre los elementos de la lista */
     text-align: center;
     background-color: black;
 }
-
+.ejer{
+    text-align: center;
+    
+}
 .rutina1,
 .rutina2,
 .rutina3 {

@@ -84,12 +84,13 @@
     margin-bottom: 50px;
   }
 
-  .ListaHome{
-    list-style: none;
-  }
   
   .infoGym .TextoHome {
     text-align: center; 
+  }
+
+  .infoGym .ListaHome {
+    display: inline;
   }
   
   .infoGym p, .infoGym ul {
