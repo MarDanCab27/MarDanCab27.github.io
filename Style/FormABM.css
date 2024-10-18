@@ -1,9 +1,10 @@
 .FormAmbUsuarios{
-    margin-top: 5%;
+    margin-top: 6%;
+    padding-bottom: 7%;
   }
   
-.abm_nombre, .abm_apellido, .abm_edad, .abm_mail{
-    margin-bottom: 40px;
+.abm_nombre, .abm_apellido, .abm_plan, .abm_mail, .abm_rutina, .abm_tipo{
+    margin-bottom: 3%;
   }
   
 .formulario-input {

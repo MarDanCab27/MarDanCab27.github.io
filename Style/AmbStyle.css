@@ -8,11 +8,12 @@ body{
 }
 
 .form-cont {
-  max-width: 500px;
+  width: 85%;
+  max-width: 700px;
   margin: 0 auto;
   background-color: #575757;
-  padding: 30px;
-  border-radius: 5px;
+  padding: 2.7%;
+  border-radius: 2%;
   text-align: center;
 }
 
@@ -52,10 +53,6 @@ body{
     margin: 10px;
   }
 
-.col-12 {
-  display: flex;
-  gap: 1px;
-}
 
 .boton-lista {   
   display: flex;
