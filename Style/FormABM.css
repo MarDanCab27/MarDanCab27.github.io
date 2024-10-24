@@ -3,7 +3,7 @@
     padding-bottom: 7%;
   }
   
-.abm_nombre, .abm_apellido, .abm_plan, .abm_mail, .abm_rutina, .abm_tipo{
+.abm_nombre, .abm_apellido, .abm_plan, .abm_mail, .abm_rutina, .abm_tipo, .abm_dni{
     margin-bottom: 3%;
   }
   
@@ -24,9 +24,9 @@
     align-items: center;
   }
 
-.abm-correcto .abm-estado {
+.abm-correcto {
 	color: #1ed12d;
-	opacity: 1;
+  opacity: 1;
 }
 .abm-incorrecto .abm-label {
 	color: #bb2929;
