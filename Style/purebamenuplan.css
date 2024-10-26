@@ -1,0 +1,23 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #283747;
+}
+
+
+.card {
+    margin: 20px auto;
+    background-color: #ffffff; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agrega sombra a las tarjetas */
+}
+
+.CARDS{
+    box-shadow: 3 5px 6px black(0, 0, 0, 1);
+    margin-top: 5%;
+}
+
+.Columnas{
+    display: inline-table;
+    margin: 5%;
+}

@@ -80,7 +80,7 @@
     width: 84%; 
     margin: 0 auto; 
     background-color: #0074A0; 
-    box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.3); /* Sombra */
+    box-shadow: 10px 15px 10px rgba(5, 5, 10, 0.3); /* Sombra */
     margin-bottom: 50px;
   }
 

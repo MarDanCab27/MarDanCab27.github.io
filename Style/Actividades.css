@@ -157,9 +157,9 @@ margin-bottom: 5px; /* espaciado entre los elementos de la lista */
     display: flex;
     justify-content: space-around;
     background-color: #283747;
-    padding: 20px; 
+    padding: 4%; 
     border-radius: 10px;
-    margin-top: 20px; 
+    margin-top: 2%; 
     color: black;
 }
 
@@ -177,7 +177,7 @@ margin-bottom: 5px; /* espaciado entre los elementos de la lista */
 .rutina2,
 .rutina3 {
     flex-basis: 30%;
-    padding: 10px; 
+    padding: 2%; 
     color: black;
     background-color: #0074A0;
     border-radius: 5px;
@@ -200,7 +200,7 @@ html {
 .card img {
     max-width: 100%; /*ancho máximo al 100% */
     height: auto; 
-    width: 300px; 
+    width: 100%; 
 }
 
 
@@ -211,7 +211,7 @@ html {
     background-color: black;
     color: #0074A0;
     text-align: center;
-    padding: 20px 0;
+    padding: 1% 0;
 }
 
 #pie .items a {
