@@ -1,0 +1,94 @@
+    body{
+    min-height: 100vh; /* Asegura que el cuerpo se expanda al menos hasta el alto de la ventana */
+    position: relative;
+    font-family: Arial, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: #283747;
+    }
+    
+    .FormAmbActividades{
+        width: 40%;                /* Cada formulario ocupa el 40% del ancho de la página */
+        margin: 5%;                 
+      }
+      
+    .abm_nombre, .abm-id, .abm_repeticiones, .abm_series{
+        margin-bottom: 3%;
+        }
+      
+    .formulario-input {
+        width: 100%;
+        padding: 2%;
+        box-sizing: border-box;
+      }
+
+    .form-cont {
+        width: 100%;               /* Asegura que el contenido del formulario ocupe el 100% de su contenedor */
+        padding: 5%;
+        border-radius: 8px;
+        text-align: center;
+        background-color: #0074A0;
+    }
+  
+    .h1-abm {
+    text-align: center;
+    color: #f0f0f0;
+    }
+  
+    .botonesamb {
+      padding: 10px 40px;
+      background-color: #00ffbf;
+      color: #000000;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin: 10px;
+    }
+  
+    .botoncarga {
+      padding: 10px 30px;
+      background-color: #00ffbf;
+      color: #000000;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin:20px;
+    }
+    
+    .botoncarga:hover {
+      background-color: #0056b3;
+    }
+
+.Forms{
+    display: flex;    
+    justify-content: center;   /* Centra los formularios */
+    gap: 20px;                 /* Espacio entre los formularios */
+}     
+
+.Rutina{
+    
+}
+
+.Actividad{
+    
+}
+
+    /* footer */
+  
+    #pie {
+      background-color: black;
+      color: #0074A0;
+      text-align: center;
+      padding: 20px 0;
+      position: fixed;
+    }
+  
+  #pie .items a {
+      color: #0074A0;
+      margin: 0 10px;
+    }
+  
+  #pie .items a:hover {
+      color: #0074A0;
+    }
+
